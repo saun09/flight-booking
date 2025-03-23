@@ -1,0 +1,82 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.3s ease-in-out;
+  }
+  
+  .modal-header {
+    color: red;
+    font-size: 18px;
+  }
+  
+  .modal-header span {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .boarding-details p {
+    margin: 5px 0;
+  }
+  
+  .qr-code {
+    margin: 15px 0;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .cancel-btn, .print-btn {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .cancel-btn {
+    background: lightgray;
+  }
+  
+  .cancel-btn:hover {
+    background: darkgray;
+  }
+  
+  .print-btn {
+    background: blue;
+    color: white;
+  }
+  
+  .print-btn:hover {
+    background: darkblue;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(-20px); }
+    to { transform: translateY(0); }
+  }
+  
