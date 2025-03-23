@@ -1,0 +1,64 @@
+/* .boarding-pass-container {
+     background: url('/public/backgroundIMAGE.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  } */
+  .boarding-pass-page {
+    background: url('/public/backgroundIMAGE.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .passenger-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    
+  }
+  
+  .passenger {
+    background: rgb(246, 239, 239);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .boarding-btn {
+    background: linear-gradient(to right, pink, purple);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, #ff66b2, #cc66ff);
+    color: white;
+    cursor: pointer;
+  }
+ .boarding-pass-title {
+    color: #ffffff; /* Change to any color */
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
