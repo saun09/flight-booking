@@ -3,6 +3,7 @@
 
 DigiYatra is a modern web application for seamless flight booking. It provides a user-friendly interface to search flights, select seats, check-in, and generate a boarding pass.
 
+## Deployed link- https://digiyatra-ms3kc7z63-saundarya-s-projects.vercel.app/search-flight
 ## Features
 - 🔎 **Search Flights**: Find flights with filters for destinations and dates.
 - 🛂 **Passenger Details**: Enter passenger information with an easy-to-use form.
