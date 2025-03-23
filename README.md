@@ -15,4 +15,5 @@ To run this project on your local machine:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/saun09/digiyatra.git
+   git clone https://github.com/saun09/flight-booking.git
+
