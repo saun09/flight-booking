@@ -17,3 +17,12 @@ To run this project on your local machine:
    ```sh
    git clone https://github.com/saun09/flight-booking.git
 
+2. cd flight-booking
+3. npm start
+
+
+
+## Technologies Used
+-React.js
+-JavaScript
+-HTML & CSS
